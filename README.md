@@ -61,7 +61,7 @@ es decir es Mutante.
 ### Caso 4
 Cargo la cantidad de fila recolectadas de secuencias de ADN del humano en este caso son 5.
 Ingreso las secuencias de ADN : 
-- CATCAT
+- CGTCAG
 - ACGCAT
 - CCCTAG
 - CGTCAT
