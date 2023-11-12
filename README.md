@@ -28,31 +28,31 @@ Evalúe los resultados y decida si cargar otra secuencia o finalizar el programa
 ### Caso 1: 
 Cargo la cantidad de fila recolectadas de secuencias de ADN del humano en este caso son 6
 Se ingresa las secuencias de ADN en la matriz: 
-1-CATCAT
-2-GCTCAG
-3-CGTTAC
-4-CCTACG
-5-ACGGGC
-6-TTATAG
+CATCAT
+GCTCAG
+CGTTAC
+CCTACG
+ACGGGC
+TTATAG
 - El ADN ingresado NO corresponde a un mutante
 - por más que tenga una cadena vertical en la columna 3 con la misma letra (T), no corresponde porque necesita más de una cadena
 
 ### Caso 2:
 Cargo la cantidad de fila recolectadas de secuencias de ADN del humano en este caso son 1
 Ingrese las secuencias de ADN en la matriz: 
-1-CATCAT
+CATCAT
 - El ADN ingresado NO corresponde a un mutante
 - El programa identifica que al tener solo una secuencia la información es muy poca y lo cataloga como no mutante
 ### Caso 3
 Cargo la cantidad de fila recolectadas de secuencias de ADN del humano en este caso son 7
 Ingrese las secuencias de ADN en la matriz: 
-1-AAAACG
-2-TTTTAC
-3-CGTACG
-4-AAATCG
-5-TACGGC
-6-GCATGC
-7-CCCCCG
+AAAACG
+TTTTAC
+CGTACG
+AAATCG
+TACGGC
+GCATGC
+CCCCCG
 - El ADN ingresado corresponde a un mutante:
 - Se encuentra en la fila 1 una secuencia de 4 "A", en la fila 2 una secuencia de 4 "T", en la fila "7" un secuencia de "C", y también se encuentra una diagonal
 que comienza en la fila 2, columna 3  y finaliza en la fila 5 columna 2, por lo tanto a generado un contador de 4 secuencias de letras iguales superando el margen de dos,
@@ -61,11 +61,11 @@ es decir es Mutante.
 ### Caso 4
 Cargo la cantidad de fila recolectadas de secuencias de ADN del humano en este caso son 5
 Ingrese las secuencias de ADN en la matriz: 
-1-CATCAT
-2-ACGCAT
-3-CCCTAG
-4-CGTCAT
-5-TGATGA
+CATCAT
+ACGCAT
+CCCTAG
+CGTCAT
+TGATGA
 El ADN ingresado corresponde a un mutante
 #posee una cadena diagonal que comienza en la posicion fila 1, columna 1 y finaliza en la fila 5 columna 2 y otra cadena vertical en la columna 5, generando así
 que cumpla con la condición de Mutante
